@@ -1604,6 +1604,50 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &445654454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 445654456}
+  - component: {fileID: 445654455}
+  m_Layer: 0
+  m_Name: SceneLoader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &445654455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445654454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 513a843b548118d40bde5e0fd8e89d44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+--- !u!4 &445654456
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445654454}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 441.95688, y: 195.07295, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &455217081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2418,7 +2462,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3837,7 +3880,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -4422,7 +4464,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -4694,7 +4735,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -6609,6 +6649,7 @@ MonoBehaviour:
   ItemPrefab: {fileID: 25583410830215988, guid: b1fffe2298381cf489a2b05bdf682c6c, type: 3}
   dropPercentage: 5
   isDropping: 0
+  sceneLoader: {fileID: 0}
 --- !u!114 &1529361941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6902,6 +6943,7 @@ MonoBehaviour:
   ItemPrefab: {fileID: 25583410830215988, guid: b1fffe2298381cf489a2b05bdf682c6c, type: 3}
   dropPercentage: 5
   isDropping: 0
+  sceneLoader: {fileID: 0}
 --- !u!114 &1535345227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7457,6 +7499,7 @@ MonoBehaviour:
   ItemPrefab: {fileID: 25583410830215988, guid: b1fffe2298381cf489a2b05bdf682c6c, type: 3}
   dropPercentage: 5
   isDropping: 0
+  sceneLoader: {fileID: 0}
 --- !u!114 &1576836740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7638,6 +7681,7 @@ MonoBehaviour:
   ItemPrefab: {fileID: 25583410830215988, guid: b1fffe2298381cf489a2b05bdf682c6c, type: 3}
   dropPercentage: 5
   isDropping: 0
+  sceneLoader: {fileID: 0}
 --- !u!114 &1609927386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8302,6 +8346,7 @@ MonoBehaviour:
   ItemPrefab: {fileID: 25583410830215988, guid: b1fffe2298381cf489a2b05bdf682c6c, type: 3}
   dropPercentage: 5
   isDropping: 0
+  sceneLoader: {fileID: 0}
 --- !u!114 &1731972833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8638,6 +8683,10 @@ PrefabInstance:
       propertyPath: target
       value: 
       objectReference: {fileID: 2082892794}
+    - target: {fileID: 7317997365630378815, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
+      propertyPath: smoothSpeed
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9180248930632114796, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
       propertyPath: m_Name
       value: Main Camera (1)
@@ -9516,7 +9565,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -9960,8 +10008,6 @@ MonoBehaviour:
   playerState: {fileID: 2082892807}
   pollManager: {fileID: 455217082}
   dashEffectPos: {fileID: 459601919}
-  fireWall: {fileID: 2082892810}
-  electricBird: {fileID: 2082892811}
 --- !u!114 &2082892800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10177,12 +10223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7ef913df20b11d44a049added38ffbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FireWall
-  firePos: {fileID: 1457531283}
-  firePrefab: {fileID: 7412881531940575601, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
-  rb: {fileID: 0}
-  dataManager: {fileID: 1576836739}
-  fireForce: 18
-  getFireAbility: 1
 --- !u!114 &2082892811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10317,6 +10357,7 @@ MonoBehaviour:
   ItemPrefab: {fileID: 25583410830215988, guid: b1fffe2298381cf489a2b05bdf682c6c, type: 3}
   dropPercentage: 5
   isDropping: 0
+  sceneLoader: {fileID: 0}
 --- !u!114 &2106148742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10592,7 +10633,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -10626,3 +10666,4 @@ SceneRoots:
   - {fileID: 1353793914}
   - {fileID: 534118552}
   - {fileID: 113518071}
+  - {fileID: 445654456}

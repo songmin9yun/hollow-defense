@@ -4,7 +4,7 @@ public class SceneLoader : MonoBehaviour
 {
     public void ToGameScene()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("MainGame");
     }
 
     public void ToTitleScene()

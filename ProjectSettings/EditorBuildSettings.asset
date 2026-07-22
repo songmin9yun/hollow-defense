@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScene.unity
     guid: 7dafd6c0edffe7049b857267694717a7
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/MainGame.unity
+    guid: 55c6da0bea65e53408aefa1bd78e1c00
   - enabled: 1
     path: Assets/Scenes/GameOverScene.unity
     guid: d72e0d34bea44414881b937be9454e2b
