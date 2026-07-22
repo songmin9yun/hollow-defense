@@ -30,6 +30,8 @@ public class EnemyDataManager : MonoBehaviour
     public float dropPercentage = 5f;
     public bool isDropping = false;
 
+    public SceneLoader sceneLoader;
+
 
     private void Awake()
     {
@@ -76,6 +78,7 @@ public class EnemyDataManager : MonoBehaviour
         if (playerState.maxHealth <= 0)
         {
             Debug.Log("플레이어가 죽었다!");
+            sceneLoader.ToGameOverScene();
         }
     }
 
