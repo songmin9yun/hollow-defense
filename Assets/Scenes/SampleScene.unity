@@ -8374,55 +8374,59 @@ PrefabInstance:
       objectReference: {fileID: 2082892794}
     - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
       propertyPath: 'parallaxFactors.Array.data[0]'
-      value: -0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
-      propertyPath: 'parallaxFactors.Array.data[1]'
-      value: -0.02
-      objectReference: {fileID: 0}
-    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
-      propertyPath: 'parallaxFactors.Array.data[2]'
       value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
-      propertyPath: 'parallaxFactors.Array.data[3]'
-      value: -0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
-      propertyPath: 'parallaxFactors.Array.data[4]'
-      value: -0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
-      propertyPath: 'parallaxFactors.Array.data[5]'
+      propertyPath: 'parallaxFactors.Array.data[1]'
       value: -0.06
       objectReference: {fileID: 0}
     - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
-      propertyPath: 'parallaxFactors.Array.data[6]'
-      value: -0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
-      propertyPath: 'parallaxFactors.Array.data[7]'
-      value: -0.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
-      propertyPath: 'parallaxFactors.Array.data[8]'
+      propertyPath: 'parallaxFactors.Array.data[2]'
       value: -0.09
       objectReference: {fileID: 0}
     - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
+      propertyPath: 'parallaxFactors.Array.data[3]'
+      value: -0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
+      propertyPath: 'parallaxFactors.Array.data[4]'
+      value: -0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
+      propertyPath: 'parallaxFactors.Array.data[5]'
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
+      propertyPath: 'parallaxFactors.Array.data[6]'
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
+      propertyPath: 'parallaxFactors.Array.data[7]'
+      value: -0.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
+      propertyPath: 'parallaxFactors.Array.data[8]'
+      value: -0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
       propertyPath: 'parallaxFactors.Array.data[9]'
-      value: -0.1
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
       propertyPath: 'parallaxFactors.Array.data[10]'
-      value: -0.11
+      value: -0.33
       objectReference: {fileID: 0}
     - target: {fileID: 3300321007629437776, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
       propertyPath: 'parallaxFactors.Array.data[11]'
-      value: -0.12
+      value: -0.36
       objectReference: {fileID: 0}
     - target: {fileID: 3933262205157342917, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
       propertyPath: m_TagString
       value: ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381599928151992686, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.28
       objectReference: {fileID: 0}
     - target: {fileID: 7317997365630378815, guid: 6eb9032d2ef00dd4eaa0551eb9df9b7e, type: 3}
       propertyPath: target
