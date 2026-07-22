@@ -6,6 +6,7 @@ public class ChaseState : IEnemyState
     private Transform playerTransform;
     private Transform enemyTransform;
     private float distance;
+    /*변경사항이다*/
     
     public void EnterState(EnemyManager enemy)
     {
