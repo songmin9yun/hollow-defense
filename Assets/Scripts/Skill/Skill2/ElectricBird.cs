@@ -23,10 +23,14 @@ public class ElectricBird : MonoBehaviour
         Rigidbody2D eletricRb = eletricObj.GetComponent<Rigidbody2D>();
         
         eletricRb.AddForce(electricBirdPos.right * eletricForce, ForceMode2D.Impulse);
+        
+        StartCoroutine(WaitThreeSeconds(5));
     }
     
     public IEnumerator WaitThreeSeconds(int second)
     {
-        WaitThreeSeconds(second);
+        getEletricAbility = false;
+        yield return new WaitForSeconds(second);
+        getEletricAbility = true;
     }
 }

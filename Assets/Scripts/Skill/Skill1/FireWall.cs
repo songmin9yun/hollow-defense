@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -24,5 +25,14 @@ public class FireWall : MonoBehaviour
         Rigidbody2D fireRb = fireObj.GetComponent<Rigidbody2D>();
         
         fireRb.AddForce(firePos.right * fireForce, ForceMode2D.Impulse);
+        
+        StartCoroutine(WaitThreeSeconds(10));
+    }
+    
+    public IEnumerator WaitThreeSeconds(int second)
+    {
+        getFireAbility = false;
+        yield return new WaitForSeconds(second);
+        getFireAbility = true;
     }
 }
