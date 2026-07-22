@@ -2609,6 +2609,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -3293,6 +3294,68 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!50 &745770609 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 3017230271781087774, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+  m_PrefabInstance: {fileID: 752416031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &752416031
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -17.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5619009192192134672, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7412881531940575601, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+      propertyPath: m_Name
+      value: skill1 FX02
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
 --- !u!1 &752736675
 GameObject:
   m_ObjectHideFlags: 0
@@ -4147,6 +4210,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -4731,6 +4795,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -4927,6 +4992,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -6790,7 +6856,7 @@ GameObject:
   - component: {fileID: 1529361936}
   m_Layer: 3
   m_Name: Monster (4)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7084,7 +7150,7 @@ GameObject:
   - component: {fileID: 1535345222}
   m_Layer: 3
   m_Name: Monster (3)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7528,7 +7594,7 @@ GameObject:
   - component: {fileID: 1576836743}
   m_Layer: 3
   m_Name: Monster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7822,7 +7888,7 @@ GameObject:
   - component: {fileID: 1609927381}
   m_Layer: 3
   m_Name: BossMonster
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8556,7 +8622,7 @@ GameObject:
   - component: {fileID: 1731972828}
   m_Layer: 3
   m_Name: Monster (2)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10021,6 +10087,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -10144,6 +10211,7 @@ GameObject:
   - component: {fileID: 2082892807}
   - component: {fileID: 2082892808}
   - component: {fileID: 2082892809}
+  - component: {fileID: 2082892810}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -10456,12 +10524,13 @@ MonoBehaviour:
   greatSword: {fileID: 2082892804}
   jump: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   bomb: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  _playerMovement: {fileID: 0}
+  _playerMovement: {fileID: 2082892798}
   interaction: {fileID: 2082892805}
   animator: {fileID: 2082892806}
-  playerState: {fileID: 0}
+  playerState: {fileID: 2082892807}
   pollManager: {fileID: 455217082}
   dashEffectPos: {fileID: 459601919}
+  fireWall: {fileID: 2082892810}
 --- !u!114 &2082892800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10547,8 +10616,8 @@ MonoBehaviour:
   slashEffect: {fileID: 1156912630}
   swordAnime: {fileID: 2082892806}
   timer: {fileID: 2082892808}
-  playerState: {fileID: 0}
-  data: {fileID: 0}
+  playerState: {fileID: 2082892807}
+  data: {fileID: 1576836739}
 --- !u!114 &2082892805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10665,6 +10734,24 @@ MonoBehaviour:
     y: 0
     width: 1
     height: 1
+--- !u!114 &2082892810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2082892792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef913df20b11d44a049added38ffbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FireWall
+  firePos: {fileID: 1457531283}
+  firePrefab: {fileID: 7412881531940575601, guid: d0dba23e8e710414c979d5cb1e8b1e85, type: 3}
+  rb: {fileID: 745770609}
+  dataManager: {fileID: 1576836739}
+  fireForce: 12
+  getFireAbility: 1
 --- !u!1 &2106148736
 GameObject:
   m_ObjectHideFlags: 0
@@ -10685,7 +10772,7 @@ GameObject:
   - component: {fileID: 2106148737}
   m_Layer: 3
   m_Name: Monster (1)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11057,6 +11144,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
+  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -11092,6 +11180,7 @@ SceneRoots:
   - {fileID: 1353793914}
   - {fileID: 534118552}
   - {fileID: 113518071}
+<<<<<<< HEAD
   - {fileID: 1821940261}
   - {fileID: 1783716431}
   - {fileID: 657628031}
@@ -11102,3 +11191,6 @@ SceneRoots:
   - {fileID: 367545965}
   - {fileID: 841985957}
   - {fileID: 1450030363}
+=======
+  - {fileID: 752416031}
+>>>>>>> 6965bdcc46ad1b83abecf05424a62f2829ad6744
