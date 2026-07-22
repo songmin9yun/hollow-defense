@@ -24,8 +24,9 @@ public class KeyBinding : MonoBehaviour
     [SerializeField] PollManager pollManager;
     [SerializeField] private Transform dashEffectPos;
 
-    [Header("참조")] [SerializeField] private FireWall fireWall;
-    
+    [Header("참조")]
+    [SerializeField] private FireWall fireWall;
+    [SerializeField] private ElectricBird electricBird;
     
 
     void Start()
@@ -76,6 +77,7 @@ public class KeyBinding : MonoBehaviour
         {
             currentWeapons.Attack();
             fireWall.FireBall();
+            electricBird.EletricBirds();
         }
     }
     

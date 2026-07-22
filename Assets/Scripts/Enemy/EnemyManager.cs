@@ -30,6 +30,7 @@ public class EnemyManager : MonoBehaviour
     {
         TransitionToState(new IdleState());
         startY = transform.position.y;
+        moveSpeed = enemyDataManager.enemyData.MoveSpeed;
     }
     
     void Update()
