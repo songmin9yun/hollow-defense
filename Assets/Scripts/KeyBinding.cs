@@ -23,6 +23,8 @@ public class KeyBinding : MonoBehaviour
     [Header("Effects")]
     [SerializeField] PollManager pollManager;
     [SerializeField] private Transform dashEffectPos;
+
+    [Header("참조")] [SerializeField] private FireWall fireWall;
     
     
 
@@ -73,6 +75,7 @@ public class KeyBinding : MonoBehaviour
         if (value.isPressed)
         {
             currentWeapons.Attack();
+            fireWall.FireBall();
         }
     }
     
