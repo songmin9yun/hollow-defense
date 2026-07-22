@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e581dd499b2d39f40b98a923a84f2af0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 169083
+  packageName: 2D Pixel Sword Hero 3
+  packageVersion: 1.0
+  assetPath: Assets/Sword Hero 3/Animation/double jump.anim
+  uploadId: 369091

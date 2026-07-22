@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1b4a45482ce2f8b4d8e7ca5ce551e320
+timeCreated: 1576891561
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 138783
+  packageName: 2D Pixel Hero Lightning Hero
+  packageVersion: 1.0
+  assetPath: Assets/Lightning Hero/Animation/idle.anim
+  uploadId: 344310

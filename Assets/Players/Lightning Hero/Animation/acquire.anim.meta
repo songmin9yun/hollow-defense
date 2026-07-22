@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: ef988c6b0f9e9004c920cf4fad1e80f7
+timeCreated: 1576891576
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 138783
+  packageName: 2D Pixel Hero Lightning Hero
+  packageVersion: 1.0
+  assetPath: Assets/Lightning Hero/Animation/acquire.anim
+  uploadId: 344310

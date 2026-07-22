@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 60244f8c2ed14324c8bf04807b5e30bb
+timeCreated: 1576891669
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 138783
+  packageName: 2D Pixel Hero Lightning Hero
+  packageVersion: 1.0
+  assetPath: Assets/Lightning Hero/Animation/jump attack.anim
+  uploadId: 344310

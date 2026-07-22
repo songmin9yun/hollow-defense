@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e4ff4dc78138e144fada2ad5a20c8c3d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 169600
+  packageName: 2D Pixel Ice Hero 2
+  packageVersion: 1.0
+  assetPath: Assets/Ice Hero 2/Animation/skill4 jump.anim
+  uploadId: 370305

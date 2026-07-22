@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7f2f69302232f3d41ade430ffa7f8699
+timeCreated: 1576895262
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118702
+  packageName: 2D Pixel Water Hero 1
+  packageVersion: 2
+  assetPath: Assets/Water Hero 1/Animation/attack.anim
+  uploadId: 344322

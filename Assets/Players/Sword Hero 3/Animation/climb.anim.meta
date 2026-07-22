@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4f28fccf431e7f14aa3835ef3f3b092b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 169083
+  packageName: 2D Pixel Sword Hero 3
+  packageVersion: 1.0
+  assetPath: Assets/Sword Hero 3/Animation/climb.anim
+  uploadId: 369091

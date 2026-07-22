@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3bebab56044682a43b23bfa0815155e5
+timeCreated: 1576891617
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 138783
+  packageName: 2D Pixel Hero Lightning Hero
+  packageVersion: 1.0
+  assetPath: Assets/Lightning Hero/Animation/die.anim
+  uploadId: 344310

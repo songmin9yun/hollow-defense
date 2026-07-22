@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3a08afc3c17fec541a8413cba15ee049
+timeCreated: 1576895238
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 118702
+  packageName: 2D Pixel Water Hero 1
+  packageVersion: 2
+  assetPath: Assets/Water Hero 1/Animation/Idle01.controller
+  uploadId: 344322
