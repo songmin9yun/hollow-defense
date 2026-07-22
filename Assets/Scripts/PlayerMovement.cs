@@ -74,8 +74,11 @@ public class PlayerMovement : MonoBehaviour
 
     public void Cards()
     {
-        cardManager.cardGet();
-        scanObject.SetActive(false);
+        if (scanObject != null)
+        {
+            cardManager.cardGet();
+            scanObject.SetActive(false);   
+        }
     }
 
     public void Dashing()
